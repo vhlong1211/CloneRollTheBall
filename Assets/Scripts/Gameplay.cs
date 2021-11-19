@@ -100,7 +100,7 @@ public class Gameplay : MonoBehaviour
         Vector3 currentMousePos = Input.mousePosition;
         Vector2 currentDirect = new Vector2(currentMousePos.x - mouseDownPos.x,currentMousePos.y - mouseDownPos.y);
         if(currentDirect.magnitude < 50f){
-            Debug.Log("length:"+currentDirect.magnitude);
+            //Debug.Log("length:"+currentDirect.magnitude);
             return;
         }    
         clickHit = false;
@@ -183,7 +183,7 @@ public class Gameplay : MonoBehaviour
             {
                 logDegug+=" "+Map[i,j]+" ";
             }
-            //Debug.Log(logDegug);
+            Debug.Log(logDegug);
         }
         CheckFinish();
 
