@@ -162,10 +162,14 @@ public class Gameplay : MonoBehaviour
         if(!isSwap){
             Debug.Log("checkswap");
             return;
-        } 
+        }
         Vector3 bufferPos = tempCell.transform.position;
         tempCell.transform.position = swapCell.transform.position;
         swapCell.transform.position = bufferPos;
+        tempCell.SetActive(false);
+        tempCell.SetActive(true);
+        swapCell.SetActive(false);
+        swapCell.SetActive(true);
         // Debug.Log("ollArrPos:"+tempArrayPos.x+"/"+tempArrayPos.y);
         // Debug.Log("newArrPos:"+tempSwapPos.x+"/"+tempSwapPos.y);
         oldCellStack.Push(tempCell);
