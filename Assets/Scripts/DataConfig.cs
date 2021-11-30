@@ -5,7 +5,7 @@ public class DataConfig {
     //Map
     public static int[,] level1Map = new int[4,4]{{1,0,0,0},{11,0,0,5},{16,10,15,0},{-1,-1,-1,10}};
     public static int[,] level2Map = new int[4,4]{{1,0,0,0},{-1,9,-1,0},{9,0,10,-1},{16,-1,12,8}};
-    public static int[,] level3Map = new int[4,4]{{1,0,0,0},{9,0,0,0},{9,10,0,0},{16,-1,12,8}};
+    public static int[,] level3Map = new int[4,4]{{1,0,0,0},{9,0,0,0},{16,-1,0,0},{10,9,12,8}};
     public static int[,] level4Map = new int[4,4]{{1,0,0,0},{16,9,0,-1},{9,-1,-1,-1},{10,0,12,8}};
     public static int[,] level5Map = new int[4,4]{{0,0,-1,1},{-1,-1,13,10},{13,14,9,9},{7,16,15,-1}};
     public static int[,] level6Map = new int[4,4]{{10,-1,10,8},{13,-1,9,0},{9,13,15,0},{3,-1,0,0}};
@@ -33,11 +33,32 @@ public class DataConfig {
     public static int[,] level28Map = new int[4,4]{{10, 13, 10, 14},{-1, 0, -1, -1},{9, 14 ,17 ,19},{3 ,16, -1, 8}};
     public static int[,] level29Map = new int[4,4]{{-1, 14, 2, 14},{14, 9 ,-1, 9},{6 , 13, 10, 15},{-1 ,20, 15 ,-1}};
     public static int[,] level30Map = new int[4,4]{{-1, 12, -1, 8},{13 ,9 ,10 ,-1},{9, 13, 10, 0},{3 ,0 ,-1 ,-1}};
+    public static int[,] level31Map = new int[4,4]{{0 ,6 ,10,-1},{16, 1 ,9 ,14},{0, 16, 12 ,-1},{-1 ,-1, 15, -1}};
+    public static int[,] level32Map = new int[4,4]{{-1 ,15, 6 ,14},{10, -1, 9,9},{1 ,13 ,10, 10},{-1 ,16, -1 ,15}};
+    public static int[,] level33Map = new int[4,4]{{13 ,-1, 10 ,14},{17, 0 ,9 ,9},{7 ,15 ,1 ,-1},{9 ,-1 ,20 ,19}};
+    public static int[,] level34Map = new int[4,4]{{13 ,0 ,1 ,-1},{14, -1 ,20, 14},{7 ,-1 ,-1 ,15},{16, 10 ,9 ,10}};
+    public static int[,] level35Map = new int[4,4]{{1 ,0 ,0 ,0},{-1, 10 ,-1, 5},{20 ,9 ,10 ,0},{-1, -1, -1, 15}};
+    public static int[,] level36Map = new int[4,4]{{13 ,-1 ,14, -1},{0 ,-1 ,10 ,-1},{3, 9 ,16 ,0},{-1, -1, 0 ,8}};
+    public static int[,] level37Map = new int[4,4]{{-1 ,14 ,-1, 1},{1 ,10 ,13, 15},{7 ,9 ,10 ,16},{0 ,0 ,0 ,0}};
+    public static int[,] level38Map = new int[4,4]{{-1 ,13, 13, 8},{-1, 1 ,9 ,-1},{-1 ,11, -1, 9},{16, 16 ,15 ,-1}};
+    public static int[,] level39Map = new int[4,4]{{1 ,14, -1 ,-1},{16 ,10, -1 ,9},{17 ,-1 ,15, 0},{16 ,-1 ,10 ,8}};
+    public static int[,] level40Map = new int[4,4]{{17, 10, -1 ,0},{9 ,6 ,15 ,14},{10 ,10 ,16 ,14},{-1 ,-1 ,10, 3}};
+    public static int[,] level41Map = new int[4,4]{{-1, 14, 14 ,5},{13, -1 ,10, -1},{-1 ,-1 ,10 ,15},{16 ,3 ,-1 ,9}};
+    public static int[,] level42Map = new int[4,4]{{-1, 13, 4, 0},{16 ,13, 0 ,9},{10, -1, 14, -1},{10, 15 ,6, 19}};
+    public static int[,] level43Map = new int[4,4]{{9 ,9 ,17, 4},{13, 15, 20 ,18},{-1 ,16, 0 ,10},{10 ,-1 ,-1, 8}};
+    public static int[,] level44Map = new int[4,4]{{14 ,10 ,-1 ,9 },{13 ,9 ,16 ,-1},{3 ,9, 16, 0},{0 ,14, -1 ,8}};
+    public static int[,] level45Map = new int[4,4]{{0 ,1 ,10, 0 },{17, 13 ,-1, 5},{15, -1, 15 ,10},{16, 9 ,-1, 0}};
+    public static int[,] level46Map = new int[4,4]{{13, 14 ,0 ,9 },{9 ,9 ,-1 ,-1},{0 ,16 ,0 ,8},{2 ,-1 ,15 ,-1}};
+    public static int[,] level47Map = new int[4,4]{{13, -1, 1 ,-1 },{-1 ,14 ,16, 9},{-1 ,9 ,10 ,15},{20, 8 ,15 ,-1}};
+    public static int[,] level48Map = new int[4,4]{{16, -1, 5 ,14 },{1, 15, -1, -1},{-1, 12, 9 ,10},{16, 0 ,0 ,13}};
+    public static int[,] level49Map = new int[4,4]{{0, 2 ,14, 9 },{15 ,13 ,-1 ,10},{0 ,9 ,5 ,11},{0 ,-1 ,16 ,15}};
+    public static int[,] level50Map = new int[4,4]{{1, 0 ,-1, -1 },{11 ,10, 0 ,5},{9 ,10 ,15, 0},{16 ,0 ,-1 ,-1 }};
 
     public static int[][,] mapAllLevel = new int[][,]{level1Map,level2Map,level3Map,level4Map,level5Map,level6Map,
     level7Map,level8Map,level9Map,level10Map,level11Map,level12Map,level13Map,level14Map,level15Map,level16Map,level17Map,
     level18Map,level19Map,level20Map,level21Map,level22Map,level23Map,level24Map,level25Map,level26Map,level27Map,level28Map,
-    level29Map,level30Map};
+    level29Map,level30Map,level31Map,level32Map,level33Map,level34Map,level35Map,level36Map,level37Map,level38Map,level39Map,
+    level40Map,level41Map,level42Map,level43Map,level44Map,level45Map,level46Map,level47Map,level48Map,level49Map,level50Map};
 
     //Path
     public static Point[] level1Path = new Point[]{new Point(0,0),new Point(1,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3)};
@@ -48,13 +69,16 @@ public class DataConfig {
     public static Point[][] level3PathAll = new Point[][]{level3Path};
     public static Point[] level4Path = new Point[]{new Point(0,0),new Point(1,0),new Point(2,0),new Point(3,0),new Point(3,1),new Point(3,2),new Point(3,3)};
     public static Point[][] level4PathAll = new Point[][]{level4Path};
-    public static Point[] level5Path = new Point[]{new Point(0,3),new Point(1,3),new Point(2,3),new Point(3,3),new Point(3,2),new Point(3,1),new Point(2,1),new Point(2,0),new Point(3,0)};
-    public static Point[][] level5PathAll = new Point[][]{level5Path};
+    public static Point[] level5Path1 = new Point[]{new Point(0,3),new Point(1,3),new Point(2,3),new Point(3,3),new Point(3,2),new Point(3,1),new Point(2,1),new Point(2,0),new Point(3,0)};
+    public static Point[] level5Path2 = new Point[]{new Point(0,3),new Point(1,3),new Point(2,3),new Point(2,2),new Point(2,1),new Point(1,1),new Point(1,0),new Point(2,0),new Point(3,0)};
+    public static Point[] level5Path3 = new Point[]{new Point(0,3),new Point(1,3),new Point(2,3),new Point(2,2),new Point(1,2),new Point(1,1),new Point(1,0),new Point(2,0),new Point(3,0)};
+    public static Point[][] level5PathAll = new Point[][]{level5Path1,level5Path2,level5Path3};
     public static Point[] level6Path1 = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(1,1),new Point(0,1),new Point(0,2),new Point(0,3)};
     public static Point[] level6Path2 = new Point[]{new Point(3,0),new Point(2,0),new Point(2,1),new Point(1,1),new Point(0,1),new Point(0,2),new Point(0,3)};
     public static Point[] level6Path3 = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(0,2),new Point(0,3)};
     public static Point[] level6Path4 = new Point[]{new Point(3,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(1,2),new Point(0,2),new Point(0,3)};
-    public static Point[][] level6PathAll = new Point[][]{level6Path1,level6Path2,level6Path3,level6Path4};
+    public static Point[] level6Path5 = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(0,2),new Point(0,3)};
+    public static Point[][] level6PathAll = new Point[][]{level6Path1,level6Path2,level6Path3,level6Path4,level6Path5};
     public static Point[] level7Path = new Point[]{new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(2,2),new Point(1,2),new Point(0,2),new Point(0,3)};
     public static Point[][] level7PathAll = new Point[][]{level7Path};
     public static Point[] level8Path = new Point[]{new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(2,2),new Point(1,2),new Point(0,2),new Point(0,3)};
@@ -70,8 +94,9 @@ public class DataConfig {
     public static Point[] level12Path2 = new Point[]{new Point(0,0),new Point(0,1),new Point(0,2),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,1),new Point(2,1),new Point(1,1),new Point(1,0)};
     public static Point[] level12Path3 = new Point[]{new Point(0,0),new Point(0,1),new Point(1,1),new Point(1,0)};    
     public static Point[][] level12PathAll = new Point[][]{level12Path1,level12Path2,level12Path3};
-    public static Point[] level13Path = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
-    public static Point[][] level13PathAll = new Point[][]{level13Path};
+    public static Point[] level13Path1 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level13Path2 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[][] level13PathAll = new Point[][]{level13Path1,level13Path2};
     public static Point[] level14Path1 = new Point[]{new Point(0,3),new Point(0,2),new Point(1,2),new Point(2,2)};
     public static Point[] level14Path2 = new Point[]{new Point(0,3),new Point(0,2),new Point(0,1),new Point(0,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(2,2)};
     public static Point[][] level14PathAll = new Point[][]{level14Path1,level14Path2};
@@ -79,7 +104,9 @@ public class DataConfig {
     public static Point[][] level15PathAll = new Point[][]{level15Path};
     public static Point[] level16Path1 = new Point[]{new Point(3,1),new Point(3,0),new Point(2,0),new Point(2,1),new Point(1,1),new Point(0,1),new Point(0,0)};
     public static Point[] level16Path2 = new Point[]{new Point(3,1),new Point(3,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2),new Point(0,1),new Point(0,0)};
-    public static Point[][] level16PathAll = new Point[][]{level16Path1,level16Path2};
+    public static Point[] level16Path3 = new Point[]{new Point(3,1),new Point(3,0),new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(1,3),new Point(0,3),new Point(0,2),new Point(0,1),new Point(0,0)};
+    public static Point[] level16Path4 = new Point[]{new Point(3,1),new Point(3,0),new Point(2,0),new Point(1,0),new Point(1,1),new Point(0,1),new Point(0,0)};
+    public static Point[][] level16PathAll = new Point[][]{level16Path1,level16Path2,level16Path3,level16Path4};
     public static Point[] level17Path1 = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(0,2),new Point(0,3),new Point(1,3),new Point(2,3),new Point(3,3)};
     public static Point[] level17Path2 = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(1,1),new Point(1,2),new Point(1,3),new Point(2,3),new Point(3,3)};
     public static Point[] level17Path3 = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(1,1),new Point(2,1),new Point(2,2),new Point(2,3),new Point(3,3)};
@@ -128,12 +155,84 @@ public class DataConfig {
     public static Point[][] level29PathAll = new Point[][]{level29Path1,level29Path2,level29Path3,level29Path4};
     public static Point[] level30Path = new Point[]{new Point(3,0),new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(0,2),new Point(0,3)};
     public static Point[][] level30PathAll = new Point[][]{level30Path};
+    public static Point[] level31Path = new Point[]{new Point(1,1),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2),new Point(0,1)};
+    public static Point[][] level31PathAll = new Point[][]{level31Path};
+    public static Point[] level32Path1 = new Point[]{new Point(2,0),new Point(3,0),new Point(3,1),new Point(3,2),new Point(3,3),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2)};
+    public static Point[] level32Path2 = new Point[]{new Point(2,0),new Point(3,0),new Point(3,1),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2)};
+    public static Point[] level32Path3 = new Point[]{new Point(2,0),new Point(3,0),new Point(3,1),new Point(3,2),new Point(2,2),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2)};
+    public static Point[] level32Path4 = new Point[]{new Point(2,0),new Point(3,0),new Point(3,1),new Point(3,2),new Point(2,2),new Point(1,2),new Point(1,3),new Point(0,3),new Point(0,2)};
+    public static Point[] level32Path5 = new Point[]{new Point(2,0),new Point(3,0),new Point(3,1),new Point(2,1),new Point(1,1),new Point(1,2),new Point(1,3),new Point(0,3),new Point(0,2)};
+    public static Point[][] level32PathAll = new Point[][]{level32Path1,level32Path2,level32Path3,level32Path4,level32Path5};
+    public static Point[] level33Path1 = new Point[]{new Point(2,2),new Point(3,2),new Point(3,3),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2),new Point(0,1),new Point(1,1),new Point(1,0),new Point(2,0)};
+    public static Point[] level33Path2 = new Point[]{new Point(2,2),new Point(3,2),new Point(3,3),new Point(2,3),new Point(1,3),new Point(0,3),new Point(0,2),new Point(1,2),new Point(1,1),new Point(1,0),new Point(2,0)};
+    public static Point[][] level33PathAll = new Point[][]{level33Path1,level33Path2};
+    public static Point[] level34Path = new Point[]{new Point(0,2),new Point(1,2),new Point(1,3),new Point(2,3),new Point(2,2),new Point(2,1),new Point(1,1),new Point(1,0),new Point(2,0)};
+    public static Point[][] level34PathAll = new Point[][]{level34Path};
+    public static Point[] level35Path = new Point[]{new Point(0,0),new Point(1,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3)};
+    public static Point[][] level35PathAll = new Point[][]{level35Path};
+    public static Point[] level36Path1 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level36Path2 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[][] level36PathAll = new Point[][]{level36Path1,level36Path2};
+    public static Point[] level37Path1 = new Point[]{new Point(0,3),new Point(1,3),new Point(1,2),new Point(1,1),new Point(1,0),new Point(2,0)};
+    public static Point[] level37Path2 = new Point[]{new Point(0,3),new Point(1,3),new Point(2,3),new Point(2,2),new Point(2,1),new Point(1,1),new Point(1,0),new Point(2,0)};
+    public static Point[] level37Path3 = new Point[]{new Point(0,3),new Point(1,3),new Point(2,3),new Point(2,2),new Point(1,2),new Point(1,1),new Point(1,0),new Point(2,0)};
+    public static Point[] level37Path4 = new Point[]{new Point(0,3),new Point(1,3),new Point(1,2),new Point(0,2),new Point(0,1),new Point(0,0),new Point(1,0),new Point(2,0)};
+    public static Point[] level37Path5 = new Point[]{new Point(0,3),new Point(1,3),new Point(1,2),new Point(1,1),new Point(0,1),new Point(0,0),new Point(1,0),new Point(2,0)};
+    public static Point[][] level37PathAll = new Point[][]{level37Path1,level37Path2,level37Path3,level37Path4,level37Path5};
+    public static Point[] level38Path = new Point[]{new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(2,2),new Point(1,2),new Point(0,2),new Point(0,3)};
+    public static Point[][] level38PathAll = new Point[][]{level38Path};
+    public static Point[] level39Path1 = new Point[]{new Point(0,0),new Point(1,0),new Point(1,1),new Point(2,1),new Point(2,0),new Point(3,0),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[] level39Path2 = new Point[]{new Point(0,0),new Point(1,0),new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[] level39Path3 = new Point[]{new Point(0,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[][] level39PathAll = new Point[][]{level39Path1,level39Path2,level39Path3};
+    public static Point[] level40Path1 = new Point[]{new Point(3,3),new Point(2,3),new Point(2,2),new Point(1,2),new Point(1,1)};
+    public static Point[] level40Path2 = new Point[]{new Point(3,3),new Point(2,3),new Point(1,3),new Point(1,2),new Point(1,1)};
+    public static Point[] level40Path3 = new Point[]{new Point(3,3),new Point(2,3),new Point(2,2),new Point(2,1),new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(0,2),new Point(1,2),new Point(1,1)};
+    public static Point[][] level40PathAll = new Point[][]{level40Path1,level40Path2,level40Path3};
+    public static Point[] level41Path1 = new Point[]{new Point(3,1),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3),new Point(0,3)};
+    public static Point[] level41Path2 = new Point[]{new Point(3,1),new Point(2,1),new Point(1,1),new Point(1,2),new Point(1,3),new Point(0,3)};
+    public static Point[] level41Path3 = new Point[]{new Point(3,1),new Point(2,1),new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(1,3),new Point(0,3)};
+    public static Point[][] level41PathAll = new Point[][]{level41Path1,level41Path2,level41Path3};
+    public static Point[] level42Path1 = new Point[]{new Point(0,2),new Point(0,1),new Point(1,1),new Point(1,2),new Point(1,3),new Point(2,3),new Point(3,3),new Point(3,2)};
+    public static Point[] level42Path2 = new Point[]{new Point(0,2),new Point(0,1),new Point(1,1),new Point(2,1),new Point(2,2),new Point(2,3),new Point(3,3),new Point(3,2)};
+    public static Point[][] level42PathAll = new Point[][]{level42Path1,level42Path2};
+    public static Point[] level43Path1 = new Point[]{new Point(0,3),new Point(0,2),new Point(1,2),new Point(1,3),new Point(2,3),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level43Path2 = new Point[]{new Point(0,3),new Point(0,2),new Point(1,2),new Point(1,3),new Point(2,3),new Point(2,2),new Point(2,1),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[][] level43PathAll = new Point[][]{level43Path1,level43Path2};
+    public static Point[] level44Path1 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[] level44Path2 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level44Path3 = new Point[]{new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(3,3)};
+    public static Point[] level44Path4 = new Point[]{new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(0,2),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level44Path5 = new Point[]{new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(1,1),new Point(1,2),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level44Path6 = new Point[]{new Point(2,0),new Point(1,0),new Point(0,0),new Point(0,1),new Point(1,1),new Point(2,1),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[] level44Path7 = new Point[]{new Point(2,0),new Point(1,0),new Point(1,1),new Point(2,1),new Point(2,2),new Point(3,2),new Point(3,3)};
+    public static Point[][] level44PathAll = new Point[][]{level44Path1,level44Path2,level44Path3,level44Path4,level44Path5,level44Path6,level44Path7};
+    public static Point[] level45Path1 = new Point[]{new Point(0,1),new Point(1,1),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3)};
+    public static Point[] level45Path2 = new Point[]{new Point(0,1),new Point(1,1),new Point(1,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3)};
+    public static Point[][] level45PathAll = new Point[][]{level45Path1,level45Path2};
+    public static Point[] level46Path1 = new Point[]{new Point(3,0),new Point(3,1),new Point(2,1),new Point(1,1),new Point(1,2),new Point(2,2),new Point(2,3)};
+    public static Point[] level46Path2 = new Point[]{new Point(3,0),new Point(3,1),new Point(2,1),new Point(1,1),new Point(0,1),new Point(0,2),new Point(1,2),new Point(2,2),new Point(2,3)};
+    public static Point[][] level46PathAll = new Point[][]{level46Path1,level46Path2};
+    public static Point[] level47Path1 = new Point[]{new Point(0,2),new Point(1,2),new Point(1,1),new Point(1,0),new Point(2,0),new Point(3,0),new Point(3,1)};
+    public static Point[] level47Path2 = new Point[]{new Point(0,2),new Point(1,2),new Point(2,2),new Point(2,1),new Point(2,0),new Point(3,0),new Point(3,1)};
+    public static Point[] level47Path3 = new Point[]{new Point(0,2),new Point(1,2),new Point(1,1),new Point(0,1),new Point(0,0),new Point(1,0),new Point(2,0),new Point(3,0),new Point(3,1)};
+    public static Point[][] level47PathAll = new Point[][]{level47Path1,level47Path2,level47Path3};
+    public static Point[] level48Path1 = new Point[]{new Point(1,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(1,2),new Point(0,2)};
+    public static Point[] level48Path2 = new Point[]{new Point(1,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3),new Point(1,2),new Point(0,2)};
+    public static Point[][] level48PathAll = new Point[][]{level48Path1,level48Path2};
+    public static Point[] level49Path1 = new Point[]{new Point(0,1),new Point(0,2),new Point(0,3),new Point(1,3),new Point(2,3),new Point(3,3),new Point(3,2),new Point(2,2)};
+    public static Point[] level49Path2 = new Point[]{new Point(0,1),new Point(0,2),new Point(1,2),new Point(1,1),new Point(2,1),new Point(3,1),new Point(3,2),new Point(2,2)};
+    public static Point[][] level49PathAll = new Point[][]{level49Path1,level49Path2};
+    public static Point[] level50Path = new Point[]{new Point(0,0),new Point(1,0),new Point(2,0),new Point(2,1),new Point(2,2),new Point(2,3),new Point(1,3)};
+    public static Point[][] level50PathAll = new Point[][]{level50Path};
 
 
     public static Point[][][] pathAllLevel = new Point[][][]{level1PathAll,level2PathAll,level3PathAll,level4PathAll,level5PathAll,level6PathAll,
     level7PathAll,level8PathAll,level9PathAll,level10PathAll,level11PathAll,level12PathAll,level13PathAll,level14PathAll,level15PathAll,level16PathAll,
     level17PathAll,level18PathAll,level19PathAll,level20PathAll,level21PathAll,level22PathAll,level23PathAll,level24PathAll,level25PathAll,level26PathAll,
-    level27PathAll,level28PathAll,level29PathAll,level30PathAll};
+    level27PathAll,level28PathAll,level29PathAll,level30PathAll,level31PathAll,level32PathAll,level33PathAll,level34PathAll,level35PathAll,level36PathAll,
+    level37PathAll,level38PathAll,level39PathAll,level40PathAll,level41PathAll,level42PathAll,level43PathAll,level44PathAll,level45PathAll,level46PathAll,
+    level47PathAll,level48PathAll,level49PathAll,level50PathAll};
     //value
     public static int[] level1PathValue = new int[]{1,11,16,10,10,15,5};
     public static int[][] level1PathValueAll = new int[][]{level1PathValue};
@@ -143,13 +242,16 @@ public class DataConfig {
     public static int[][] level3PathValueAll = new int[][]{level3PathValue};
     public static int[] level4PathValue = new int[]{1,9,9,16,10,12,8};
     public static int[][] level4PathValueAll = new int[][]{level4PathValue};
-    public static int[] level5PathValue = new int[]{1,9,9,15,10,16,14,13,7};
-    public static int[][] level5PathValueAll = new int[][]{level5PathValue};
+    public static int[] level5PathValue1 = new int[]{1,9,9,15,10,16,14,13,7};
+    public static int[] level5PathValue2 = new int[]{1,9,15,10,16,14,13,9,7};
+    public static int[] level5PathValue3 = new int[]{1,9,15,16,14,10,13,9,7};
+    public static int[][] level5PathValueAll = new int[][]{level5PathValue1,level5PathValue2,level5PathValue3};
     public static int[] level6PathValue1 = new int[]{3,9,13,15,13,10,8};
     public static int[] level6PathValue2 = new int[]{3,13,15,9,13,10,8};
     public static int[] level6PathValue3 = new int[]{3 ,9, 9, 13, 10, 10, 8};
     public static int[] level6PathValue4 = new int[]{3, 13, 10 ,15, 9 ,13, 8};
-    public static int[][] level6PathValueAll = new int[][]{level6PathValue1,level6PathValue2,level6PathValue3,level6PathValue4};
+    public static int[] level6PathValue5 = new int[]{3, 9, 13 ,10, 15 ,13, 8};
+    public static int[][] level6PathValueAll = new int[][]{level6PathValue1,level6PathValue2,level6PathValue3,level6PathValue4,level6PathValue5};
     public static int[] level7PathValue = new int[]{1,9,16,19,9,9,13,8};
     public static int[][] level7PathValueAll = new int[][]{level7PathValue};
     public static int[] level8PathValue = new int[]{1,9,20,19,9,9,13,8};
@@ -165,8 +267,10 @@ public class DataConfig {
     public static int[] level12PathValue2 = new int[]{2, 10, 14 ,9 ,9 ,15,16, 9 ,14 ,6};  
     public static int[] level12PathValue3 = new int[]{2, 14,15,6};  
     public static int[][] level12PathValueAll = new int[][]{level12PathValue1,level12PathValue2,level12PathValue3};
-    public static int[] level13PathValue = new int[]{3, 17, 10 ,14,9 ,16, 8};    
-    public static int[][] level13PathValueAll = new int[][]{level13PathValue};
+    public static int[] level13PathValue1 = new int[]{3, 17, 10 ,14,9 ,16, 8};  
+    public static int[] level13PathValue2 = new int[]{3, 17, 14 ,9 ,16,10, 8};    
+  
+    public static int[][] level13PathValueAll = new int[][]{level13PathValue1,level13PathValue2};
     public static int[] level14PathValue1 = new int[]{4, 13 ,9 ,7};    
     public static int[] level14PathValue2 = new int[]{4, 10, 10 ,13, 20, 10, 14, 7};    
     public static int[][] level14PathValueAll = new int[][]{level14PathValue1,level14PathValue2};
@@ -174,7 +278,10 @@ public class DataConfig {
     public static int[][] level15PathValueAll = new int[][]{level15PathValue};
     public static int[] level16PathValue1 = new int[]{4 ,20, 13, 15 ,9 ,14, 6};    
     public static int[] level16PathValue2 = new int[]{4 ,20 ,13 ,10 ,10 ,15 ,9 ,14, 12, 10 ,6};    
-    public static int[][] level16PathValueAll = new int[][]{level16PathValue1,level16PathValue2};
+    public static int[] level16PathValue3 = new int[]{4 ,20 ,9,13,10,10,15,14,12,10,6};    
+    public static int[] level16PathValue4 = new int[]{4 ,20 ,9,13,15,14,6};    
+
+    public static int[][] level16PathValueAll = new int[][]{level16PathValue1,level16PathValue2,level16PathValue3,level16PathValue4};
     public static int[] level17PathValue1 = new int[]{3, 9, 11 ,13 ,10 ,10, 14 ,9, 9 ,7};
     public static int[] level17PathValue2 = new int[]{3, 9, 11 ,13 ,14 ,16, 10 ,14 ,9, 7};    
     public static int[] level17PathValue3 = new int[]{3, 9, 11 ,13 ,14 ,9 ,16 ,10 ,14 ,7};    
@@ -224,15 +331,85 @@ public class DataConfig {
     public static int[][] level29PathValueAll = new int[][]{level29PathValue1,level29PathValue2,level29PathValue3,level29PathValue4};
     public static int[] level30PathValue = new int[]{3 ,9 ,9 ,13, 12, 10 ,8}; 
     public static int[][] level30PathValueAll = new int[][]{level30PathValue};
-
-
-
+    public static int[] level31PathValue1 = new int[]{1,16,12,15,9,14,10,6}; 
+    public static int[][] level31PathValueAll = new int[][]{level31PathValue1};
+    public static int[] level32PathValue1 = new int[]{1,16,10,10,15,9,9,14,6}; 
+    public static int[] level32PathValue2 = new int[]{1,16,15,13,10,15,9,14,6}; 
+    public static int[] level32PathValue3 = new int[]{1,16,10,15,13,15,9,14,6}; 
+    public static int[] level32PathValue4 = new int[]{1,16,10,15,9,13,15,14,6}; 
+    public static int[] level32PathValue5 = new int[]{1,16,15,9,13,10,15,14,6}; 
+    public static int[][] level32PathValueAll = new int[][]{level32PathValue1,level32PathValue2,level32PathValue3,level32PathValue4,level32PathValue5};
+    public static int[] level33PathValue1 = new int[]{1,20,19,9,9,14,10,13,15,17,7}; 
+    public static int[] level33PathValue2 = new int[]{1,20,19,9,9,14,13,15,10,17,7}; 
+    public static int[][] level33PathValueAll = new int[][]{level33PathValue1,level33PathValue2};
+    public static int[] level34PathValue1 = new int[]{1,20,14,15,10,16,14,13,7}; 
+    public static int[][] level34PathValueAll = new int[][]{level34PathValue1};
+    public static int[] level35PathValue1 = new int[]{1,9,20,10,10,15,5}; 
+    public static int[][] level35PathValueAll = new int[][]{level35PathValue1};
+    public static int[] level36PathValue1 = new int[]{3,13,10,14,9,16,8}; 
+    public static int[] level36PathValue2 = new int[]{3,13,14,9,16,10,8}; 
+    public static int[][] level36PathValueAll = new int[][]{level36PathValue1,level36PathValue2};
+    public static int[] level37PathValue1 = new int[]{1,15,10,10,13,7}; 
+    public static int[] level37PathValue2 = new int[]{1,9,15,10,16,14,13,7}; 
+    public static int[] level37PathValue3 = new int[]{1,9,15,16,14,10,13,7}; 
+    public static int[] level37PathValue4 = new int[]{1,15,16,14,10,13,9,7}; 
+    public static int[] level37PathValue5 = new int[]{1,15,10,16,14,13,9,7}; 
+    public static int[][] level37PathValueAll = new int[][]{level37PathValue1,level37PathValue2,level37PathValue3,level37PathValue4,level37PathValue5};
+    public static int[] level38PathValue1 = new int[]{1,11,16,15,9,9,13,8}; 
+    public static int[][] level38PathValueAll = new int[][]{level38PathValue1};
+    public static int[] level39PathValue1 = new int[]{1,16,14,15,17,16,10,10,8}; 
+    public static int[] level39PathValue2 = new int[]{1,16,14,9,16,10,8}; 
+    public static int[] level39PathValue3 = new int[]{1,16,10,14,9,16,8}; 
+    public static int[][] level39PathValueAll = new int[][]{level39PathValue1,level39PathValue2,level39PathValue3};
+    public static int[] level40PathValue1 = new int[]{3,14,16,14,6}; 
+    public static int[] level40PathValue2 = new int[]{3,9,14,10,6}; 
+    public static int[] level40PathValue3 = new int[]{3,14,10,10,16,9,17,10,14,15,6}; 
+    public static int[][] level40PathValueAll = new int[][]{level40PathValue1,level40PathValue2,level40PathValue3};
+    public static int[] level41PathValue1 = new int[]{3,13,10,15,9,5}; 
+    public static int[] level41PathValue2 = new int[]{3,9,13,10,15,5}; 
+    public static int[] level41PathValue3 = new int[]{3,14,16,13,10,10,15,5}; 
+    public static int[][] level41PathValueAll = new int[][]{level41PathValue1,level41PathValue2,level41PathValue3};
+    public static int[] level42PathValue1 = new int[]{4,13,16,10,14,9,19,6}; 
+    public static int[] level42PathValue2 = new int[]{4,13,9,16,10,14,19,6}; 
+    public static int[][] level42PathValueAll = new int[][]{level42PathValue1,level42PathValue2};
+    public static int[] level43PathValue1 = new int[]{4,17,20,18,15,13,16,8}; 
+    public static int[] level43PathValue2 = new int[]{4,17,20,18,15,10,13,16,10,8}; 
+    public static int[][] level43PathValueAll = new int[][]{level43PathValue1,level43PathValue2};
+    public static int[] level44PathValue1 = new int[]{3,13,14,9,16,10,8}; 
+    public static int[] level44PathValue2 = new int[]{3,13,10,14,9,16,8}; 
+    public static int[] level44PathValue3 = new int[]{3,9,13,14,9,9,16,10,8}; 
+    public static int[] level44PathValue4 = new int[]{3,9,13,10,14,9,9,16,8}; 
+    public static int[] level44PathValue5 = new int[]{3,9,13,14,16,14,9,16,8}; 
+    public static int[] level44PathValue6 = new int[]{3,9,13,14,9,16,14,16,8}; 
+    public static int[] level44PathValue7 = new int[]{3,13,14,16,14,16,8}; 
+    public static int[][] level44PathValueAll = new int[][]{level44PathValue1,level44PathValue2,level44PathValue3,level44PathValue4,level44PathValue5,level44PathValue6,level44PathValue7};
+    public static int[] level45PathValue1 = new int[]{1,9,16,10,15,5}; 
+    public static int[] level45PathValue2 = new int[]{1,15,17,16,10,10,15,5}; 
+    public static int[][] level45PathValueAll = new int[][]{level45PathValue1,level45PathValue2};
+    public static int[] level46PathValue1 = new int[]{2,15,9,13,14,16,8}; 
+    public static int[] level46PathValue2 = new int[]{2,15,9,9,13,14,9,16,8}; 
+    public static int[][] level46PathValueAll = new int[][]{level46PathValue1,level46PathValue2};
+    public static int[] level47PathValue1 = new int[]{1,15,10,13,9,20,8}; 
+    public static int[] level47PathValue2 = new int[]{1,9,15,10,13,20,8}; 
+    public static int[] level47PathValue3 = new int[]{1,15,16,14,13,9,9,20,8}; 
+    public static int[][] level47PathValueAll = new int[][]{level47PathValue1,level47PathValue2,level47PathValue3};
+    public static int[] level48PathValue1 = new int[]{1,16,12,15,9,5}; 
+    public static int[] level48PathValue2 = new int[]{1,16,12,10,15,14,16,5}; 
+    public static int[][] level48PathValueAll = new int[][]{level48PathValue1,level48PathValue2};
+    public static int[] level49PathValue1 = new int[]{2,10,14,9,11,15,16,5}; 
+    public static int[] level49PathValue2 = new int[]{2,14,15,13,9,16,15,5}; 
+    public static int[][] level49PathValueAll = new int[][]{level49PathValue1,level49PathValue2};
+    public static int[] level50PathValue1 = new int[]{1,11,16,10,10,15,5}; 
+    public static int[][] level50PathValueAll = new int[][]{level50PathValue1};
     public static int[][][] pathValueAllLevel = new int[][][]{level1PathValueAll,level2PathValueAll,level3PathValueAll,level4PathValueAll
     ,level5PathValueAll,level6PathValueAll,level7PathValueAll,level8PathValueAll,level9PathValueAll,level10PathValueAll
     ,level11PathValueAll,level12PathValueAll,level13PathValueAll,level14PathValueAll,level15PathValueAll,
     level16PathValueAll,level17PathValueAll,level18PathValueAll,level19PathValueAll,level20PathValueAll,level21PathValueAll,
     level22PathValueAll,level23PathValueAll,level24PathValueAll,level25PathValueAll,level26PathValueAll,level27PathValueAll,
-    level28PathValueAll,level29PathValueAll,level30PathValueAll};
+    level28PathValueAll,level29PathValueAll,level30PathValueAll,level31PathValueAll,level32PathValueAll,level33PathValueAll,
+    level34PathValueAll,level35PathValueAll,level36PathValueAll,level37PathValueAll,level38PathValueAll,level39PathValueAll,
+    level40PathValueAll,level41PathValueAll,level42PathValueAll,level43PathValueAll,level44PathValueAll,level45PathValueAll,
+    level46PathValueAll,level47PathValueAll,level48PathValueAll,level49PathValueAll,level50PathValueAll};
 
 }
 

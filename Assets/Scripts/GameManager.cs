@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
 
     public static void NextScene(){
         int nextScene = SceneManager.GetActiveScene().buildIndex+1;
-        if(nextScene == 30){
+        if(nextScene == 50){
             nextScene = 0;
         }      
         SceneManager.LoadScene(nextScene);

@@ -52,18 +52,18 @@ public class Gameplay : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
             
             RaycastHit hit;
-            Debug.Log("Enter mouse down");
+            //Debug.Log("Enter mouse down");
             if( Physics.Raycast( ray, out hit, 100 ) )
             {   
-                Debug.Log("rayorigin:"+ray.origin);
-                Debug.Log("position hit:"+hit.transform.position+"===name hit:"+hit.transform.name+"===tag hit:"+hit.transform.tag);
-                Debug.DrawLine( ray.origin, ray.origin + ray.direction * 100, Color.green);
-                Debug.Log("Check hit 0");
+                //Debug.Log("rayorigin:"+ray.origin);
+                //Debug.Log("position hit:"+hit.transform.position+"===name hit:"+hit.transform.name+"===tag hit:"+hit.transform.tag);
+                //Debug.DrawLine( ray.origin, ray.origin + ray.direction * 100, Color.green);
+                //Debug.Log("Check hit 0");
                 if(hit.transform.gameObject.tag == "Ground" || hit.transform.gameObject.tag == "Concrete")    return;
-                Debug.Log("Check hit 1");
+                //Debug.Log("Check hit 1");
                 if(hit.transform.parent.gameObject.tag == "Concrete")    return;
                 tempCell = hit.transform.parent.gameObject;
-                Debug.Log( "mousePosDown:"+Input.mousePosition );
+                //Debug.Log( "mousePosDown:"+Input.mousePosition );
                 //Debug.Log( hit.transform.gameObject.name );
                 clickHit = true;
                 mouseDownPos = Input.mousePosition;
@@ -80,15 +80,15 @@ public class Gameplay : MonoBehaviour
         {
             if(clickHit == false)   return;
             clickHit = false;
-            Debug.Log("mousePosUp"+Input.mousePosition);
+            //Debug.Log("mousePosUp"+Input.mousePosition);
             mouseUpPos = Input.mousePosition;
             Vector2 direct = new Vector2(mouseUpPos.x - mouseDownPos.x,mouseUpPos.y - mouseDownPos.y);
             if(direct.magnitude == 0) return;
             float angleDiff = Vector2.Angle(xAxis,direct);
-            Debug.Log("Angle:"+angleDiff);
+            //Debug.Log("Angle:"+angleDiff);
             Direction aimTo = GetDirectionFromVector(angleDiff);
             if(aimTo == Direction.Stay)     return;
-            Debug.Log(aimTo);
+            //Debug.Log(aimTo);
             SwapPosition(aimTo);
                 
         }
@@ -154,13 +154,13 @@ public class Gameplay : MonoBehaviour
 
     void SwapPosition(Direction direction){
         if(tempCell.tag != "Wood"){
-            Debug.Log("check wood"+tempCell.tag);
+            //Debug.Log("check wood"+tempCell.tag);
             return;
         } 
         
         bool isSwap = GetCellFromDirection(direction);
         if(!isSwap){
-            Debug.Log("checkswap");
+            //Debug.Log("checkswap");
             return;
         }
         Vector3 bufferPos = tempCell.transform.position;
@@ -176,7 +176,7 @@ public class Gameplay : MonoBehaviour
         newCellStack.Push(swapCell);
         oldCellPosStack.Push(tempArrayPos);
         newCellPosStack.Push(tempSwapPos);
-        Debug.Log("pushstack");
+        //Debug.Log("pushstack");
         int tempMapValue = Map[tempArrayPos.y,tempArrayPos.x];
         Map[tempArrayPos.y,tempArrayPos.x] = Map[tempSwapPos.y,tempSwapPos.x];
         Map[tempSwapPos.y,tempSwapPos.x] = tempMapValue;
@@ -187,7 +187,7 @@ public class Gameplay : MonoBehaviour
             {
                 logDegug+=" "+Map[i,j]+" ";
             }
-            Debug.Log(logDegug);
+            //Debug.Log(logDegug);
         }
         CheckFinish();
 
@@ -219,7 +219,7 @@ public class Gameplay : MonoBehaviour
 
         if(isFinish == true){
             BallControl.isStartMoving = true;
-            Debug.Log("success");
+            //Debug.Log("success");
         }
     }
 
@@ -249,9 +249,9 @@ public class Gameplay : MonoBehaviour
         RaycastHit cellHit;
         if(Physics.Raycast(swapPos,-transform.up,out cellHit,10f)){
             //dbps.transform.position = swapPos;
-            Debug.Log("Enter raycast");
+            //Debug.Log("Enter raycast");
             if(cellHit.transform.tag == "Ground" || cellHit.transform.tag == "Concrete")   return false;
-            Debug.Log("After check cell");
+            //Debug.Log("After check cell");
             //if(cellHit.transform.parent.gameObject.tag == "Concrete")   return;
             if(cellHit.transform.parent.gameObject.tag == "Space"){
                 //Debug.Log(cellHit.transform.parent.gameObject.name);
