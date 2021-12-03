@@ -33,7 +33,12 @@ public class Gameplay : MonoBehaviour
     
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        //Edit cam pos
+        // GameObject cam = GameObject.Find("Camera");
+        // cam.transform.position = new Vector3(12, 13, -12);
+        // cam.transform.eulerAngles = new Vector3(65 , -45 , 0);
+        // Debug.Log("thefckhappen");
 
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
         Map = DataConfig.mapAllLevel[sceneIndex].Clone() as int[,];
